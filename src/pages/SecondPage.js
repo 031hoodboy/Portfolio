@@ -70,6 +70,8 @@ const TechWrapper = styled.div`
     display: flex;
     align-items: center;
     width: 60vw;
+    padding: 5vh 0;
+
     @media (max-width: 560px) {
         width: 100%;
   } 
@@ -92,7 +94,6 @@ const TsLogo = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5vh 0;
 `;
 
 const ReactLogo = styled(TsLogo)`

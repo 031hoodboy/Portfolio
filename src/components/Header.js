@@ -13,16 +13,11 @@ const Header = () => {
                 </Subtitle>
             </TitleWrapper>
             <HeaderWrapper>
-            <a href="https://github.com/031hoodboy" style={{textDecoration: 'none'}}>
-
-                <Github>                
-                    Github                
-                </Github>
+                <a href="https://github.com/031hoodboy" style={{textDecoration: 'none'}}>  
+                    <Github>Github</Github>
                 </a>
                 <a href="mailto:littlepark0107@naver.com" style={{textDecoration: 'none'}}>
-                <Email>
-                    Email
-                </Email>
+                    <Email>Email</Email>
                 </a>
             </HeaderWrapper>
         </HeaderBlock>
@@ -71,7 +66,6 @@ const Github = styled.div`
 
 const Email = styled.div`
     color: #fff;
-    margin-right: 20px;
 `;
 
 const Subtitle = styled.span`

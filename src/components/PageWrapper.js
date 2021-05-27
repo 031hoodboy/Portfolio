@@ -8,7 +8,7 @@ const PageWrapper=styled.div`
     align-items: flex-start;
     justify-content: flex-start;
     @media (max-width: 560px) {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
   } 
 `;
