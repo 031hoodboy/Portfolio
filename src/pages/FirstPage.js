@@ -39,8 +39,8 @@ const ProfileBlock = styled.div`
 const ProfileImg = styled.div`
     width: 200px;
     height: 200px;
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 150px;
+    min-height: 150px;
     background-image: url(${ProfileImage});
     background-size: contain;
     background-repeat: no-repeat;
@@ -54,16 +54,16 @@ const ProfileImg = styled.div`
 const PlusImg = styled(ProfileImg)`    
     width: 50px;
     height: 50px;
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 30px;
+    min-height: 30px;
     background-image: url(${PlusImage});
 `;
 
 const CodeImg = styled(ProfileImg)`
     width: 200px;
     height: 200px;
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 150px;
+    min-height: 150px;
     background-image: url(${CodeImage});
 `;
 
