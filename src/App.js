@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import  { createGlobalStyle } from "styled-components";
+import Header from '../src/components/Header';
+import FirstPage from '../src/pages/FirstPage';
+import SecondPage from '../src/pages/SecondPage';
+import ThirdPage from '../src/pages/ThirdPage';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <GlobalStyle/>
+      <Header/>
+      <FirstPage/>
+      <SecondPage/>
+      <ThirdPage/>
+    </>
   );
 }
 
 export default App;
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: #080808;
+  }
+`;
