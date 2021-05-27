@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PageWrapper from '../components/PageWrapper';
-import {Title, Subtitle, TitleBlock} from '../components/ContentsAtoms';
+import {Title, Subtitle, TitleBlock, Content, InfoBlock} from '../components/ContentsAtoms';
 import ReactImage from '../images/reactlogo.png'
 import TsImage from '../images/tslogo.png';
 import JsImage from '../images/jslogo.png';
@@ -15,72 +15,56 @@ const Profile = () => {
         <TitleBlock>
             <Title>Skills</Title>
             <Subtitle>Crafted for highly scalable, easily maintainable and highly performant React.js applications with a focus on best DX and best practices.</Subtitle>
-            <TechBlock>
+            <InfoBlock>
             <TechWrapper>
                     <ReactLogo/>
                     <Wrapper>
                         <TechTitle>React</TechTitle>
-                        <TechInfo>Write composable CSS that’s co-located with your components for complete modularity.</TechInfo>
+                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <TsLogo/>
                     <Wrapper>
                         <TechTitle>Type script</TechTitle>
-                        <TechInfo>Write composable CSS that’s co-located with your components for complete modularity.</TechInfo>
+                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <JsLogo/>
                     <Wrapper>
                         <TechTitle>JavaScript</TechTitle>
-                        <TechInfo>Write composable CSS that’s co-located with your components for complete modularity.</TechInfo>
+                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <ReduxLogo/>
                     <Wrapper>
                         <TechTitle>Redux</TechTitle>
-                        <TechInfo>Write composable CSS that’s co-located with your components for complete modularity.</TechInfo>
+                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <StyledLogo/>
                     <Wrapper>
                         <TechTitle>Styled Component</TechTitle>
-                        <TechInfo>Write composable CSS that’s co-located with your components for complete modularity.</TechInfo>
+                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <AntdLogo/>
                     <Wrapper>
                         <TechTitle>Ant Design</TechTitle>
-                        <TechInfo>Write composable CSS that’s co-located with your components for complete modularity.</TechInfo>
+                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
                     </Wrapper>
                 </TechWrapper>
-            </TechBlock>
+            </InfoBlock>
         </TitleBlock>
         </PageWrapper>
     );
 }
 
 export default Profile;
-
-const SkillsBlock = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    @media (max-width: 560px) {
-        width: 90%;
-        margin: 0 auto;
-  } 
-`;
-
-const TechBlock = styled.div`
-    padding: 5vh 0;
-    margin-left: 3vw;
-`;
 
 const TechWrapper = styled.div`
     display: flex;
@@ -134,12 +118,5 @@ const ReduxLogo = styled(TsLogo)`
 const TechTitle = styled.div`
     font-size: 3vh;
     font-weight: 700;
-    color: #fff;
-
-`;
-
-
-const TechInfo = styled.div`
-    margin-top: 2vh;
     color: #fff;
 `;

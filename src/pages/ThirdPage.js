@@ -9,7 +9,9 @@ const Profile = () => {
         <TitleBlock>
             <Title>Projects</Title>
             <Subtitle>Crafted for highly scalable, easily maintainable and highly performant React.js applications with a focus on best DX and best practices.</Subtitle>
+            <ProjectBlock>
 
+            </ProjectBlock>
         </TitleBlock>
         </PageWrapper>
     );
@@ -17,10 +19,6 @@ const Profile = () => {
 
 export default Profile;
 
-
-
-const TechBlock = styled.div`
-    padding: 5vh 0;
-    margin-left: 3vw;
+const ProjectBlock = styled.div`
+    
 `;
-

@@ -29,3 +29,13 @@ export const TitleBlock = styled.div`
         margin: 0 auto;
   } 
 `;
+
+export const Content = styled.div`
+    margin-top: 2vh;
+    color: #fff;
+`;
+
+export const InfoBlock = styled.div`
+    padding: 5vh 0;
+    margin-left: 3vw;
+`;
