@@ -10,12 +10,12 @@ const Footer = () => {
                 </NameWrapper>
                 <Br/>
                 <ContentBlock>
-                <ContentWrapper>
-                    <Content href="tel:010-7510-6589">Phone</Content>
-                    <Content href="https://www.instagram.com/031_hood_boy/">Instagram</Content>
-                    <Content href="https://open.kakao.com/o/sE5ZIKdd">Kakaotalk</Content>
-                </ContentWrapper>
-                    <Copyright>Copyright ⓒ 2021 HoodBoy All Rights Reserved.</Copyright>
+                    <ContentWrapper>
+                        <Content href="tel:010-7510-6589">Phone</Content>
+                        <Content href="https://www.instagram.com/031_hood_boy/">Instagram</Content>
+                        <Content href="https://open.kakao.com/o/sE5ZIKdd">Kakaotalk</Content>
+                    </ContentWrapper>
+                        <Copyright>Copyright ⓒ 2021 HoodBoy All Rights Reserved.</Copyright>
                 </ContentBlock>
             </FooterBlock>
     );
@@ -32,7 +32,6 @@ const FooterBlock = styled.div`
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    border-top: 1px solid #171717;
     @media (max-width: 560px) {
     width: 90%;
     padding: 0;
@@ -40,6 +39,7 @@ const FooterBlock = styled.div`
 `;
 
 const ContentBlock = styled.div`
+
 `;
 
 const ContentWrapper = styled.div`
@@ -60,6 +60,8 @@ const Content = styled.a`
 const NameWrapper = styled.div`
     display: flex;
     align-items: flex-end;
+    width: 100%;
+    justify-content: flex-start;
 `;
 
 const Name = styled.div`
@@ -70,7 +72,7 @@ const Name = styled.div`
     flex-wrap: nowrap;
     cursor: pointer;
     @media (max-width: 560px) {
-    width: 37vw;
+    width: 40vw;
     font-size: 16px;
   }
   &:hover{
