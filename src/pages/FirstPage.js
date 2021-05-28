@@ -5,6 +5,7 @@ import ProfileImage from '../images/ZEPETO_CAPTURE.png';
 import PageWrapper from '../components/PageWrapper';
 import PlusImage from '../images/plus.png';
 import CodeImage from '../images/code.png';
+import CodeAnimation from '../components/CodeAnimation';
 
 const Profile = () => {
     return (
@@ -12,7 +13,8 @@ const Profile = () => {
         <ProfileBlock>
             <ProfileImg/>
             <PlusImg/>
-            <CodeImg/>
+            {/* <CodeImg/> */}
+            <CodeAnimation/>
         </ProfileBlock>
         <IntroduceBlock>
             <Title>HoodBoy</Title>

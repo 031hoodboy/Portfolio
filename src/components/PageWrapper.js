@@ -9,7 +9,6 @@ const PageWrapper=styled.div`
     justify-content: flex-start;
     @media (max-width: 560px) {
         width: 100%;
-        margin: 0 auto;
   } 
 `;
 

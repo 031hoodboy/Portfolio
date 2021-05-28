@@ -16,7 +16,7 @@ const Profile = () => {
             <Title>Skills</Title>
             <Subtitle>Crafted for highly scalable, easily maintainable and highly performant React.js applications with a focus on best DX and best practices.</Subtitle>
             <InfoBlock>
-            <TechWrapper>
+                <TechWrapper>
                     <ReactLogo/>
                     <Wrapper>
                         <TechTitle>React</TechTitle>
@@ -71,7 +71,6 @@ const TechWrapper = styled.div`
     align-items: center;
     width: 60vw;
     padding: 5vh 0;
-
     @media (max-width: 560px) {
         width: 100%;
   } 
