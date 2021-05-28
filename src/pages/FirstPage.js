@@ -4,7 +4,6 @@ import {Title, Subtitle} from '../components/ContentsAtoms';
 import ProfileImage from '../images/ZEPETO_CAPTURE.png';
 import PageWrapper from '../components/PageWrapper';
 import PlusImage from '../images/plus.png';
-import CodeImage from '../images/code.png';
 import CodeAnimation from '../components/CodeAnimation';
 
 const Profile = () => {
@@ -13,7 +12,6 @@ const Profile = () => {
         <ProfileBlock>
             <ProfileImg/>
             <PlusImg/>
-            {/* <CodeImg/> */}
             <CodeAnimation/>
         </ProfileBlock>
         <IntroduceBlock>
@@ -59,14 +57,6 @@ const PlusImg = styled(ProfileImg)`
     min-width: 30px;
     min-height: 30px;
     background-image: url(${PlusImage});
-`;
-
-const CodeImg = styled(ProfileImg)`
-    width: 200px;
-    height: 200px;
-    min-width: 150px;
-    min-height: 150px;
-    background-image: url(${CodeImage});
 `;
 
 const IntroduceBlock = styled.div`
