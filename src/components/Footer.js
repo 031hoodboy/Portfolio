@@ -32,7 +32,7 @@ const FooterBlock = styled.div`
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    border: 1px solid #171717;
+    border-top: 1px solid #171717;
     @media (max-width: 560px) {
     width: 90%;
     padding: 0;
