@@ -50,6 +50,7 @@ const HeaderWrapper = styled.div`
 const TitleWrapper = styled.div`
     display: flex;
     align-items: flex-end;
+    cursor: default;
 `;
 
 const Portfolio = styled.span`

@@ -39,3 +39,4 @@ export const InfoBlock = styled.div`
     padding: 5vh 0;
     margin-left: 3vw;
 `;
+

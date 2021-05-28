@@ -4,6 +4,7 @@ import Header from '../src/components/Header';
 import FirstPage from '../src/pages/FirstPage';
 import SecondPage from '../src/pages/SecondPage';
 import ThirdPage from '../src/pages/ThirdPage';
+import Footer from '../src/components/Footer';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <FirstPage/>
       <SecondPage/>
       <ThirdPage/>
+      <Footer/>
     </>
   );
 }
