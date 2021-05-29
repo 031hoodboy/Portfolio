@@ -14,48 +14,48 @@ const Profile = () => {
         <PageWrapper>
         <TitleBlock>
             <Title>Skills</Title>
-            <Subtitle>Crafted for highly scalable, easily maintainable and highly performant React.js applications with a focus on best DX and best practices.</Subtitle>
+            <Subtitle>These are skills that I have to learn to shape my own thoughts. Not all technologies can be used professionally, but they can be used without much difficulty in proceeding with the project.</Subtitle>
             <InfoBlock>
                 <TechWrapper>
                     <ReactLogo/>
                     <Wrapper>
                         <TechTitle>React</TechTitle>
-                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
+                        <Content>React is developed on a component basis to facilitate productivity and maintenance.</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <TsLogo/>
                     <Wrapper>
-                        <TechTitle>Type script</TechTitle>
-                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
+                        <TechTitle>TypeScript</TechTitle>
+                        <Content>TypeScript supports static types, allowing errors to be detected in the compilation phase.</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <JsLogo/>
                     <Wrapper>
                         <TechTitle>JavaScript</TechTitle>
-                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
+                        <Content>It is an essential language for creating a dynamic web and is essential for React and Typescripts.</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <ReduxLogo/>
                     <Wrapper>
                         <TechTitle>Redux</TechTitle>
-                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
+                        <Content>Use to efficiently manage state in a project.</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <StyledLogo/>
                     <Wrapper>
-                        <TechTitle>Styled Component</TechTitle>
-                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
+                        <TechTitle>StyledComponent</TechTitle>
+                        <Content>It can be changed by lowering the props fluidly, inheriting styles, declaring variables, etc.</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <AntdLogo/>
                     <Wrapper>
-                        <TechTitle>Ant Design</TechTitle>
-                        <Content>Write composable CSS that’s co-located with your components for complete modularity.</Content>
+                        <TechTitle>AntDesign</TechTitle>
+                        <Content>Ant Design is a clean, sophisticated design that meets both web and mobile at the same time.</Content>
                     </Wrapper>
                 </TechWrapper>
             </InfoBlock>

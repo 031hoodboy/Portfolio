@@ -8,7 +8,7 @@ export const Title = styled.span`
 `;
 
 export const Subtitle = styled.span`
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     color: #b5b5b5;
     padding: 10px;
     @media (max-width: 1024px) {

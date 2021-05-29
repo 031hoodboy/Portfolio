@@ -13,14 +13,15 @@ const Profile = () => {
         <PageWrapper>
         <TitleBlock>
             <Title>Projects</Title>
-            <Subtitle>Crafted for highly scalable, easily maintainable and highly performant React.js applications with a focus on best DX and best practices.</Subtitle>
+                    프로젝트들의 코드는 깃허브에 있으며 일부 프로젝트는 들어갈 수 없거나 코드가 공개되지 않습니다.
+            <Subtitle>The code for the projects is in GitHub, and some projects are not allowed in or code is not released.</Subtitle>
         </TitleBlock>
         </PageWrapper>
         <ProjectBlock>
             <PointingBlock>
                 <ProjectHover href="https://pointing.life/">
                     <Content>
-                        포인팅 관리자페이지<br/>
+                        포인팅 관리자, 랜딩페이지<br/>
                         바로가기
                     </Content>
                 </ProjectHover>

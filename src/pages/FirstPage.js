@@ -9,15 +9,15 @@ import CodeAnimation from '../components/CodeAnimation';
 const Profile = () => {
     return (
         <PageWrapper>
-        <ProfileBlock>
-            <ProfileImg/>
-            <PlusImg/>
-            <CodeAnimation/>
-        </ProfileBlock>
-        <IntroduceBlock>
-            <Title>HoodBoy</Title>
-            <Subtitle>Now you can use the React Boilerplate as a Create React</Subtitle>
-        </IntroduceBlock>
+            <ProfileBlock>
+                <ProfileImg/>
+                <PlusImg/>
+                <CodeAnimation/>
+            </ProfileBlock>
+            <IntroduceBlock>
+                <Title>HoodBoy</Title>
+                <Subtitle>Enjoy the web and try to implement everything I imagine in code.</Subtitle>
+            </IntroduceBlock>
         </PageWrapper>
     );
 }
