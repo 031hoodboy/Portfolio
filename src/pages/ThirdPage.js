@@ -13,7 +13,6 @@ const Profile = () => {
         <PageWrapper>
         <TitleBlock>
             <Title>Projects</Title>
-                    프로젝트들의 코드는 깃허브에 있으며 일부 프로젝트는 들어갈 수 없거나 코드가 공개되지 않습니다.
             <Subtitle>The code for the projects is in GitHub, and some projects are not allowed in or code is not released.</Subtitle>
         </TitleBlock>
         </PageWrapper>
@@ -21,7 +20,7 @@ const Profile = () => {
             <PointingBlock>
                 <ProjectHover href="https://pointing.life/">
                     <Content>
-                        포인팅 관리자, 랜딩페이지<br/>
+                        Pointing admin, landingpage<br/>
                         바로가기
                     </Content>
                 </ProjectHover>
@@ -50,6 +49,20 @@ const Profile = () => {
                     </Content>
                 </ProjectHover>
             </CodedeliveryBlock>
+            <Block>
+                <ProjectHover href="https://new-codedelivery.vercel.app/">
+                    <Content>
+                        준비중..
+                    </Content>
+                </ProjectHover>
+            </Block>
+            <Block>
+                <ProjectHover href="https://new-codedelivery.vercel.app/">
+                    <Content>
+                        준비중..
+                    </Content>
+                </ProjectHover>
+            </Block>
         </ProjectBlock>
     </>
     );
@@ -84,7 +97,6 @@ const PointingBlock = styled.div`
     justify-content: center;
     cursor: pointer;
     border-radius: 12px;
-
 `;
 
 const ProjectHover = styled.a`
@@ -127,4 +139,7 @@ const CodedeliveryBlock = styled(PointingBlock)`
     background-image: url(${CodedeliveryImage});
 `;
 
+const Block = styled(PointingBlock)`
+    background: #fff;
+`;
 
