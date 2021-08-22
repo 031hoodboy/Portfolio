@@ -18,7 +18,7 @@ const Profile = () => {
         </PageWrapper>
         <ProjectBlock>
             <PointingBlock>
-                <ProjectHover href="https://pointing.life/">
+                <ProjectHover href="https://pointing.life/" target="_blank">
                     <Content>
                         Pointing admin, landingpage<br/>
                         바로가기
@@ -34,7 +34,7 @@ const Profile = () => {
                 </ProjectHover>
             </LoungeBlock>
             <NikeBlock>
-                <ProjectHover href="https://swooshcalendar.vercel.app/">
+                <ProjectHover href="https://swooshcalendar.vercel.app/" target="_blank">
                     <Content>
                         나이키 드로우 캘린더<br/>
                         바로가기
@@ -42,7 +42,7 @@ const Profile = () => {
                 </ProjectHover>
             </NikeBlock>
             <CodedeliveryBlock>
-                <ProjectHover href="https://new-codedelivery.vercel.app/">
+                <ProjectHover href="https://new-codedelivery.vercel.app/" target="_blank">
                     <Content>
                         코드딜리버리 랜딩페이지<br/>
                         바로가기
@@ -50,14 +50,14 @@ const Profile = () => {
                 </ProjectHover>
             </CodedeliveryBlock>
             <Block>
-                <ProjectHover href="https://new-codedelivery.vercel.app/">
+                <ProjectHover href="/" target="_blank">
                     <Content>
                         준비중..
                     </Content>
                 </ProjectHover>
             </Block>
             <Block>
-                <ProjectHover href="https://new-codedelivery.vercel.app/">
+                <ProjectHover href="/" target="_blank">
                     <Content>
                         준비중..
                     </Content>
