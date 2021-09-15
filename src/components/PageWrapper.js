@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const PageWrapper=styled.div`
-    background-color: #080808;
     width: 60vw;
     margin: 0 auto;
     padding: 4vw 0;
