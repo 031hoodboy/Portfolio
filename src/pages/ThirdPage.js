@@ -41,7 +41,7 @@ const Profile = () => {
         <NikeBlock>
           <ProjectHover href="https://sgt-tech.co.kr/" target="_blank">
             <Content>
-              (주)SGT 랜딩페이지
+              (주) SGT 랜딩페이지
               <br />
               바로가기
             </Content>
