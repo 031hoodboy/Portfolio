@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {Title, Subtitle} from '../components/ContentsAtoms';
 import ProfileImage from '../images/ZEPETO_CAPTURE.png';
+import HoonImage from '../images/hoon.jpg';
 import PageWrapper from '../components/PageWrapper';
 import PlusImage from '../images/plus.png';
 import CodeAnimation from '../components/CodeAnimation';
@@ -12,11 +13,11 @@ const Profile = () => {
             <ProfileBlock>
                 <ProfileImg/>
                 <PlusImg/>
-                <CodeAnimation/>
+                <HoonImg/>
             </ProfileBlock>
             <IntroduceBlock>
-                <Title>HoodBoy</Title>
-                <Subtitle>Enjoy the web and try to implement everything I imagine in code.</Subtitle>
+                <Title>김태철</Title>
+                <Subtitle>4.16교육혁명은 자기 통찰로부터 출발하여 심리적 욕망을 바꾸는 사상운동이며 학생,학부모,선생님이 모두 웃는 하하하교육혁명으로 스며들어야 한다.</Subtitle>
             </IntroduceBlock>
         </PageWrapper>
     );
@@ -42,6 +43,18 @@ const ProfileImg = styled.div`
     min-width: 150px;
     min-height: 150px;
     background-image: url(${ProfileImage});
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+const HoonImg = styled(ProfileImg)`
+    height: 150px;
+    margin-top: auto;
+    background-image: url(${HoonImage});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; 

@@ -8,6 +8,8 @@ import JsImage from '../images/jslogo.png';
 import ReduxImage from '../images/reduxlogo.png';
 import StyledImage from '../images/styledlogo.png';
 import AntdImage from '../images/antdlogo.png';
+import MemoryImage from '../images/memorylogo.png';
+import DusImage from '../images/duslogo.png';
 
 const Profile = () => {
     return (
@@ -17,45 +19,52 @@ const Profile = () => {
             <Subtitle>These are skills that I have to learn to shape my own thoughts. Not all technologies can be used professionally, but they can be used without much difficulty in proceeding with the project.</Subtitle>
             <InfoBlock>
                 <TechWrapper>
+                    <AntdLogo/>
+                    <Wrapper>
+                        <TechTitle>동북고등학교</TechTitle>
+                        <Content>동북고등학교 1985년 졸업</Content>
+                    </Wrapper>
+                </TechWrapper>
+                <TechWrapper>
                     <ReactLogo/>
                     <Wrapper>
-                        <TechTitle>React</TechTitle>
-                        <Content>React is developed on a component basis to facilitate productivity and maintenance.</Content>
+                        <TechTitle>연세대학교</TechTitle>
+                        <Content>연세대학교에서 북한학 전공</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <TsLogo/>
                     <Wrapper>
-                        <TechTitle>TypeScript</TechTitle>
-                        <Content>TypeScript supports static types, allowing errors to be detected in the compilation phase.</Content>
+                        <TechTitle>가천대학교</TechTitle>
+                        <Content>가천대학교에서 국어국문학전공 전공, 문학박사 현대시, 현대문학도 전공함 1994년~1999년</Content>
+                    </Wrapper>
+                </TechWrapper>
+                <TechWrapper>
+                    <DusLogo/>
+                    <Wrapper>
+                        <TechTitle>연대한국학교</TechTitle>
+                        <Content>연대한국학교에서 2014년 ~ 2016년 근무</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <JsLogo/>
                     <Wrapper>
-                        <TechTitle>JavaScript</TechTitle>
-                        <Content>It is an essential language for creating a dynamic web and is essential for React and Typescripts.</Content>
+                        <TechTitle>한국디지털미디어고등학교</TechTitle>
+                        <Content>한국디지털미디어고등학교 국어교사</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
                     <ReduxLogo/>
                     <Wrapper>
-                        <TechTitle>Redux</TechTitle>
-                        <Content>Use to efficiently manage state in a project.</Content>
+                        <TechTitle>4.16 교육연구소</TechTitle>
+                        <Content>4.16 교육연구소 연구소 소장</Content>
                     </Wrapper>
                 </TechWrapper>
                 <TechWrapper>
-                    <StyledLogo/>
+                    <MemoryLogo/>
                     <Wrapper>
-                        <TechTitle>StyledComponent</TechTitle>
-                        <Content>It can be changed by lowering the props fluidly, inheriting styles, declaring variables, etc.</Content>
-                    </Wrapper>
-                </TechWrapper>
-                <TechWrapper>
-                    <AntdLogo/>
-                    <Wrapper>
-                        <TechTitle>AntDesign</TechTitle>
-                        <Content>Ant Design is a clean, sophisticated design that meets both web and mobile at the same time.</Content>
+                        <TechTitle>4.16 기억저장소</TechTitle>
+                        <Content>4.16 기억저장소 운영위원</Content>
                     </Wrapper>
                 </TechWrapper>
             </InfoBlock>
@@ -113,6 +122,14 @@ const AntdLogo = styled(TsLogo)`
 
 const ReduxLogo = styled(TsLogo)`
     background-image: url(${ReduxImage});
+`;
+
+const MemoryLogo = styled(TsLogo)`
+    background-image: url(${MemoryImage});
+`;
+
+const DusLogo = styled(TsLogo)`
+    background-image: url(${DusImage});
 `;
 
 const TechTitle = styled.div`
