@@ -13,14 +13,13 @@ const Profile = () => {
         <ProfileImg />
         <PlusImg />
         <CodeAnimation />
-      </ProfileBlock>{" "}
+      </ProfileBlock>
       <IntroduceBlock>
-        <Title> HoodBoy </Title>{" "}
+        <Title> HoodBoy </Title>
         <Subtitle>
-          {" "}
-          Enjoy the web and try to implement everything I imagine in code.{" "}
-        </Subtitle>{" "}
-      </IntroduceBlock>{" "}
+          Enjoy the web and try to implement everything I imagine in code.
+        </Subtitle>
+      </IntroduceBlock>
     </PageWrapper>
   );
 };
